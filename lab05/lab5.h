@@ -23,9 +23,9 @@ class BST {
 	
 	public:
 		Value value;
-		bool selected;
 		Node* left;
 		Node* right;
+		bool selected;
 		
 		Node( const Value v = Value() )
 		: value(v), left(nil), right(nil), selected(false)
@@ -371,7 +371,7 @@ class BST {
     void vertsum()
     {
     	map<int, int> m;
-    	int hd;
+    	int hd = 0;
     	vertSum(root, hd, m);
     }
     

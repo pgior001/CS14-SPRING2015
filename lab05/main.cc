@@ -26,8 +26,6 @@ void test1()
     // int buffer[500];
     // test.findSumPath(test.root, 80, buffer);
     test.SumPath(80);
-    map<int, int> m;
-    int hd;
     test.vertsum();   
 }
 
@@ -49,8 +47,6 @@ void test2()
     test.minCover();
     test.displayMinCover();
     test.SumPath(85);
-    map<int, int> m;
-    int hd;
     test.vertsum();
 }
 
@@ -59,8 +55,6 @@ void test3()
     BST<int> test;
     test.displayMinCover();
     test.SumPath(80);
-    map<int, int> m;
-    int hd;
     test.vertsum();
 }
 
