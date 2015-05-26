@@ -1,0 +1,12 @@
+hash table
++ look up fast
++ insert fast
++ consistant lookup
+
+tree
++ semi consistant insert
+- slower lookup
+- slower insert
+- inconsistand lookup
+
+You could use how much data space they need to compare them.
